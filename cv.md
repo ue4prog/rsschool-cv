@@ -7,7 +7,7 @@
 1. I am familiar with С++, Python at university level. Can do various tasks on Javascript. I have expirience with git as VCS. Using VScode,Webstorm.
 1. I don't have any code examples.
 1. Only tasks from previous year of RS courses.
-1. Secondary education, incomplete higher education in BNTY, faculty FITR. 
+1. Secondary education, incomplete higher education in BNTU, faculty FITR. 
 1. I used to participate in various olympiads in school time. Passed online test that showed level A2. 
 Over time, I became weaker in spoken English. But still I can translate, read and understand).
 
