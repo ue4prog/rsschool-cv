@@ -51,3 +51,32 @@ li{
     color: #FFFFFF;
     text-decoration: none;
 }
+a:hover,
+.wrapper__section li:hover {
+    background: #9a0007;
+}
+
+.wrapper__section h4 {
+    border-bottom: #d6c8c8 solid 1px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.wrapper__header {
+    display: flex;
+    background-color: #FFFFFF;
+    grid-area: header;
+    padding: 5% 5% 0 0;
+    border-bottom: #d6c8c8 solid 1px;
+}
+
+.wrapper__header p {
+    padding: 0 0 5% 5%;
+    
+}
+
+img {
+    height: 10%;
+    width: 10%;
+    border-radius: 10%;
+}
