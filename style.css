@@ -1,0 +1,53 @@
+html,
+body {
+    background-color: #225557;
+    margin: 0 auto;
+    padding: 0;
+}
+
+ul{
+    padding-left: 0;
+    margin: 0;
+}
+li{
+    list-style-type: none;
+}
+
+.wrapper {
+    display: grid;
+    max-width: 1024px;
+    height: 100%;
+    margin: 0 auto;
+    grid-template-areas: "section header header header" "section wrapper__main-experience wrapper__main-experience wrapper__main-experience" "section wrapper__main-education wrapper__main-education wrapper__main-education";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr;
+    flex-basis: fill;
+}
+
+.wrapper__section {
+    background-color: #d32f2f;
+    grid-area: section;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: #FFFFFF;
+    text-align: center;
+    padding-left: 18%;
+    padding-right: 5%;
+}
+
+.wrapper__section li {
+    text-align: center;
+    padding: 10px 0 10px 0;
+    cursor: pointer;
+}
+
+.wrapper__section ul{
+    padding-left: 0;
+}
+
+.wrapper__section a {
+    display: block;
+    color: #FFFFFF;
+    text-decoration: none;
+}
