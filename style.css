@@ -1,0 +1,118 @@
+html,
+body {
+    background-color: #225557;
+    margin: 0 auto;
+    padding: 0;
+}
+
+ul{
+    padding-left: 0;
+    margin: 0;
+}
+li{
+    list-style-type: none;
+}
+
+.wrapper {
+    display: grid;
+    max-width: 1024px;
+    height: 100%;
+    margin: 0 auto;
+    grid-template-areas: "section header header header" "section wrapper__main-experience wrapper__main-experience wrapper__main-experience" "section wrapper__main-education wrapper__main-education wrapper__main-education";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr;
+    flex-basis: fill;
+}
+
+.wrapper__section {
+    background-color: #d32f2f;
+    grid-area: section;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: #FFFFFF;
+    text-align: center;
+    padding-left: 18%;
+    padding-right: 5%;
+}
+
+.wrapper__section li {
+    text-align: center;
+    padding: 10px 0 10px 0;
+    cursor: pointer;
+}
+
+.wrapper__section ul{
+    padding-left: 0;
+}
+
+.wrapper__section a {
+    display: block;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+a:hover,
+.wrapper__section li:hover {
+    background: #9a0007;
+}
+
+.wrapper__section h4 {
+    border-bottom: #d6c8c8 solid 1px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.wrapper__header {
+    display: flex;
+    background-color: #FFFFFF;
+    grid-area: header;
+    padding: 5% 5% 0 0;
+    border-bottom: #d6c8c8 solid 1px;
+}
+
+.wrapper__header p {
+    padding: 0 0 5% 5%;
+    
+}
+
+img {
+    height: 10%;
+    width: 10%;
+    border-radius: 10%;
+}
+.wrapper__main-experience {
+    grid-area: wrapper__main-experience;
+    padding: 5% 5% 5% 5%;
+    background-color: #FFFFFF;
+    display: flex;
+   
+}
+
+.wrapper__main-education {
+    grid-area: wrapper__main-education;
+    display: flex;
+    padding: 5% 5% 15% 5%;
+    background-color: #FFFFFF;
+}
+.wrapper__main-education div , .wrapper__main-experience div {
+    align-self: flex-end;
+    border-left:#d6c8c8 solid 1px;
+    border-bottom:#d6c8c8 solid 1px;
+    padding: 5%;
+}
+.wrapper__main-education ul , .wrapper__main-experience ul{
+    border-bottom:#d6c8c8 solid 1px;
+    padding: 0 5% 5% 0 ;
+}
+
+.wrapper__main-education div h4 , .wrapper__main-experience div h4 {
+    margin:0;
+}
+
+.wrapper__main-education div h4:first-child , .wrapper__main-experience div h4:first-child{
+    color:#d32f2f;
+}
+
+.wrapper__main-education div p:last-child , .wrapper__main-experience div p:last-child{
+    padding-top: 5%;
+}
